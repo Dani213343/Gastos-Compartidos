@@ -1,0 +1,57 @@
+# =========================
+# DEPENDENCIAS
+# =========================
+
+node_modules/
+
+
+# =========================
+# VARIABLES DE ENTORNO
+# =========================
+
+.env
+.env.*
+!.env.example
+
+
+# =========================
+# FRONTEND
+# =========================
+
+frontend/build/
+
+
+# =========================
+# BACKEND
+# =========================
+
+backend/uploads/
+
+
+# =========================
+# LOGS
+# =========================
+
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+
+# =========================
+# SISTEMA / EDITORES
+# =========================
+
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+
+# =========================
+# ARCHIVOS TEMPORALES
+# =========================
+
+*.tmp
+*.temp
